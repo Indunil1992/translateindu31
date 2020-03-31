@@ -1,0 +1,90 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "28699d59-d0e2-4e80-ad59-4ec1f47e95f7": {
+        "id": "28699d59-d0e2-4e80-ad59-4ec1f47e95f7",
+        "parent": null,
+        "name": "translateindu31.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "translateindu31.js",
+        "cursor": {
+          "lineNumber": 29,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [],
+        "testCases": {
+          "083834eb-d7c8-4fb0-8155-7c137e2e4ba6": {
+            "id": "083834eb-d7c8-4fb0-8155-7c137e2e4ba6",
+            "name": "Test event",
+            "functionId": "28699d59-d0e2-4e80-ad59-4ec1f47e95f7",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "28699d59-d0e2-4e80-ad59-4ec1f47e95f7"
+    ],
+    "currentFileId": "28699d59-d0e2-4e80-ad59-4ec1f47e95f7",
+    "resources": {
+      "translateResource": {
+        "name": "translateResource",
+        "type": "Translate",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "translateindu31",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1585635342781
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "translateindu31",
+      "url": "https://github.com/Indunil1992/translateindu31"
+    }
+  }
+}
