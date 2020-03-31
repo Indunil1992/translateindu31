@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "translateindu31.js",
         "cursor": {
-          "lineNumber": 20,
-          "column": 1
+          "lineNumber": 14,
+          "column": 16
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -78,7 +78,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585635566949
+    "lastSave": 1585636540585
   },
   "VCS_STATE": {
     "provider": "GitHub",
